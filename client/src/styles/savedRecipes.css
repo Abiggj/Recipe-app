@@ -1,0 +1,68 @@
+/* savedRecipes.css */
+.saved-recipes-container {
+  padding: 2rem;
+}
+
+.recipe-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.instructions-container {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}

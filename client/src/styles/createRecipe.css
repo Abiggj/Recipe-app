@@ -1,0 +1,83 @@
+.create-recipe-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #ff69b4;
+  }
+  
+  .form-control {
+    border-color: #ff69b4;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff3399;
+    border-color: #ff3399;
+  }
+  
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  .fadeInDown {
+    animation-name: fadeInDown;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
